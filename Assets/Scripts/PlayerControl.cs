@@ -6,7 +6,7 @@ public class PlayerControl : MonoBehaviour
 {
     // Public variables
     public float speed;
-    
+   
     // Private variables
     private Rigidbody2D rBody;
 

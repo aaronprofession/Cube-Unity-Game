@@ -7,7 +7,7 @@ public class CamFollow : MonoBehaviour
 { 
     public GameObject Player;
     // Start is called before the first frame update
-    bool isDead = false;
+    public static bool isDead = false;
 
     public Text timerLabel;
     // Update is called once per frame

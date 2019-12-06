@@ -15,5 +15,6 @@ public class ContactVictory : MonoBehaviour
     {
         victoryMenu.SetActive(true);
         PlayerControler.gameObject.SetActive(false);
+        CamFollow.isDead = true;
     }
 }
